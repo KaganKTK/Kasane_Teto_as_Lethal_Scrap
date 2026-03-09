@@ -16,21 +16,21 @@ namespace TetoMod
         private static readonly Dictionary<Levels.LevelTypes, int> SpawnRarityPerLevel = new Dictionary<Levels.LevelTypes, int>
         {
             // Easy Moons
-            { Levels.LevelTypes.ExperimentationLevel, 80 },
-            { Levels.LevelTypes.AssuranceLevel, 80 },
-            { Levels.LevelTypes.VowLevel, 70 },
+            { Levels.LevelTypes.ExperimentationLevel, 50 },
+            { Levels.LevelTypes.AssuranceLevel, 50 },
+            { Levels.LevelTypes.VowLevel, 50 },
 
             // Intermediate Moons
-            { Levels.LevelTypes.OffenseLevel, 60 },
-            { Levels.LevelTypes.MarchLevel, 60 },
+            { Levels.LevelTypes.OffenseLevel, 50 },
+            { Levels.LevelTypes.MarchLevel, 50 },
             { Levels.LevelTypes.AdamanceLevel, 50 },
 
             // Hard Moons
-            { Levels.LevelTypes.RendLevel, 40 },
+            { Levels.LevelTypes.RendLevel, 50 },
             // { Levels.LevelTypes.DineLevel, 35 },
-            { Levels.LevelTypes.TitanLevel, 30 },
-            { Levels.LevelTypes.ArtificeLevel, 25 },
-            { Levels.LevelTypes.EmbrionLevel, 20 },
+            { Levels.LevelTypes.TitanLevel, 60 },
+            { Levels.LevelTypes.ArtificeLevel, 60 },
+            { Levels.LevelTypes.EmbrionLevel, 60 },
 
             // Modded Moons
             { Levels.LevelTypes.Modded, 50 },
